@@ -26,11 +26,18 @@ If the PythonPart should be used to create a new layer file directly from an ext
 - Line style
 
 Their heading and order is mandatory and should NOT be changed!\
-The same applies previously exported data is edited in the Excel template prior to a re-import.
+The same applies for previously exported data that is edited in the Excel template prior to a re-import.
 ## Syntax of the Excel template
-The scema of the Excel file is similar to the structure of the ALLPLAN layer file and contains a separate column for all required information that an individual layer in ALLPLAN could have:
-- Structure and Categorie\
-corresponding to the Layer Levels I and II inside a layer structure and can have any user-defied name
+The schema of the Excel file is similar to the structure of the ALLPLAN layer file and contains a separate column for all required information that an individual layer in ALLPLAN could have:
+- **Structure** and **Categorie**\
+corresponding to the **Layer Levels I** and **II** inside a layer structure and can have any user-defied name
 
-![layer_level_I](/docs/Layer_levels_excel.png)
-- 
+<!-- ![layer_level_I](./docs/Layer_levels_excel.png) -->
+<img src = "./docs/Layer_levels_excel.png" width = 250/>\
+<img src = "./docs/Layer_levels_allplan.png" width = 250/>
+- **Full name** and **Short name**\
+corresponding to the compound name of an ALLPLAN layer in which the **Full name** is free of choice. The **Short name** on the other hand, as it is used as a kind of idetifier, must be **unique** and can therefor only occur once in each layer structure. All the other internal requirements, like capital letters and the number of characters, are checked from the PythonPart and directly corrected if necessary
+
+<img src = "./docs/Layer_names_excel.png" width = 250/>\
+<img src = "./docs/Layer_names_allplan.png" width = 250/>
+-
