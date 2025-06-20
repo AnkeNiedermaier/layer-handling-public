@@ -40,4 +40,7 @@ corresponding to the compound name of an ALLPLAN layer in which the **Full name*
 
 <img src = "./docs/Layer_names_excel.png" width = 450/>\
 <img src = "./docs/Layer_names_allplan.png" width = 450/>
--
+- **Layer Number**\
+is usaully assigned automatically when creating a new layer in ALLPLAN. Besides the Short name, the Number is the second **unique** indentifier and can therefor also only exist once in every layer structure.\
+For user defined layers the **number range 65000-35000** is provided inside the program, in which the numbering should be consecutive if possible and in a DESCENDING order.
+
