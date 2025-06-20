@@ -33,11 +33,11 @@ The schema of the Excel file is similar to the structure of the ALLPLAN layer fi
 corresponding to the **Layer Levels I** and **II** inside a layer structure and can have any user-defied name
 
 <!-- ![layer_level_I](./docs/Layer_levels_excel.png) -->
-<img src = "./docs/Layer_levels_excel.png" width = 250/>\
-<img src = "./docs/Layer_levels_allplan.png" width = 250/>
+<img src = "./docs/Layer_levels_excel.png" width = 450/>\
+<img src = "./docs/Layer_levels_allplan.png" width = 450/>
 - **Full name** and **Short name**\
 corresponding to the compound name of an ALLPLAN layer in which the **Full name** is free of choice. The **Short name** on the other hand, as it is used as a kind of idetifier, must be **unique** and can therefor only occur once in each layer structure. All the other internal requirements, like capital letters and the number of characters, are checked from the PythonPart and directly corrected if necessary
 
-<img src = "./docs/Layer_names_excel.png" width = 250/>\
-<img src = "./docs/Layer_names_allplan.png" width = 250/>
+<img src = "./docs/Layer_names_excel.png" width = 450/>\
+<img src = "./docs/Layer_names_allplan.png" width = 450/>
 -
