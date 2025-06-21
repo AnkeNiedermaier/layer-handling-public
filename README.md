@@ -4,7 +4,7 @@ The PythonPart enables the creation and editing of the ALLPLAN internal Layerfil
 - **Exporting** and **Editing** an existing layer file
 - **(Re)Import** of a layer file modified in Excel
 
-The Excel file used for this has to follow the provided scema to make sure that the PythonPart can use it when executed.
+The Excel file used for this purpose has to follow the provided schema to make sure that the PythonPart can read it when executed.
 
 ## Installation
 The PythonPart **LayerHandling** can be installed directly from the Plugin Manager in ALLPLAN. 
@@ -12,6 +12,11 @@ The PythonPart **LayerHandling** can be installed directly from the Plugin Manag
 Alternatively, the corresponding ***.allep** package can be downloaded from the [release page](https://github.com/AnkeNiedermaier/layer-handling-public/releases). ***.allep** files are ALLPLAN internal setups that can be installed via drag and drop into the program window.
 
 At least the version 2026 is needed to install the PythonPart.
+
+## Installed PythonPart Scripts
+If the installation was successfull, the PythonPart **LayerHandling.pyp** as well as the Ecxel schema template **Schema_LayerHandling.xlsx** can be found
+in the ALLPLAN Library:
+`Office` → `ALLPLAN GmbH` → `LayerHandling`
 
 ## Preparation
 If the PythonPart should be used to create a new layer file directly from an external template, it is necessary to fill the Excel template in advance with all necessary information. Like it is the case in the ALLPLAN layer file, the template is divided into individual columns:
@@ -42,5 +47,16 @@ corresponding to the compound name of an ALLPLAN layer in which the **Full name*
 <img src = "./docs/Layer_names_allplan.png" width = 450/>
 - **Layer Number**\
 is usaully assigned automatically when creating a new layer in ALLPLAN. Besides the Short name, the Number is the second **unique** indentifier and can therefor also only exist once in every layer structure.\
-For user defined layers the **number range 65000-35000** is provided inside the program, in which the numbering should be consecutive if possible and in a DESCENDING order.
+For user defined layers the **number range 65000-35000** is provided inside the program, in which the numbering should be consecutive if possible and in a DESCENDING order
 
+<img src = "./docs/Layer_numbers.png" width = 200/>\
+- **Pen, Line and Color**\
+comply with the possible requirements for the "byLayer" formating in the **Format Definition"" tab. The **internal ALLPLAN number** is required here as specification, that can be determined in the corresponding Format pulldowns of the Properties palette for example
+<img src = "./docs/Layer_format_excel.png" width = 450/>\
+<img src = "./docs/Layer_format_allplan.png" width = 450/>
+- **Line style**\
+can be used as a dynamic specification for the "byLayer" **formating** and is also entered in using the **internal ALLPLAN number**. If no Linestyle should be assigned to a layer, the number 0 has to be entered in the corresponding column
+<img src = "./docs/Layer_linestyle_excel.png" width = 450/>\
+<img src = "./docs/Layer_linestyle_allplan.png" width = 450/>
+## Workflow
+If the PythonPart
