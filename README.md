@@ -49,14 +49,20 @@ corresponding to the compound name of an ALLPLAN layer in which the **Full name*
 is usaully assigned automatically when creating a new layer in ALLPLAN. Besides the Short name, the Number is the second **unique** indentifier and can therefor also only exist once in every layer structure.\
 For user defined layers the **number range 65000-35000** is provided inside the program, in which the numbering should be consecutive if possible and in a DESCENDING order
 
-<img src = "./docs/Layer_numbers.png" width = 200/>\
+<img src = "./docs/Layer_numbers.png" width = 200/>
+
 - **Pen, Line and Color**\
-comply with the possible requirements for the "byLayer" formating in the **Format Definition"" tab. The **internal ALLPLAN number** is required here as specification, that can be determined in the corresponding Format pulldowns of the Properties palette for example
-<img src = "./docs/Layer_format_excel.png" width = 450/>\
+comply with the possible requirements for the "byLayer" formating in the **Format Definition** tab. The **internal ALLPLAN number** is required here as specification, that can be determined in the corresponding Format pulldowns of the Properties palette for example
+
+<img src = "./docs/Layer_format_excel.png" width = 450/>
 <img src = "./docs/Layer_format_allplan.png" width = 450/>
-- **Line style**\
+
+
+- **Line style**
 can be used as a dynamic specification for the "byLayer" **formating** and is also entered in using the **internal ALLPLAN number**. If no Linestyle should be assigned to a layer, the number 0 has to be entered in the corresponding column
 <img src = "./docs/Layer_linestyle_excel.png" width = 450/>\
 <img src = "./docs/Layer_linestyle_allplan.png" width = 450/>
+
+
 ## Workflow
 If the PythonPart
