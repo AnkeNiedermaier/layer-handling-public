@@ -58,8 +58,9 @@ comply with the possible requirements for the "byLayer" formating in the **Forma
 <img src = "./docs/Layer_format_allplan.png" width = 450/>
 
 
-- **Line style**
+- **Line style**\
 can be used as a dynamic specification for the "byLayer" **formating** and is also entered in using the **internal ALLPLAN number**. If no Linestyle should be assigned to a layer, the number 0 has to be entered in the corresponding column
+
 <img src = "./docs/Layer_linestyle_excel.png" width = 450/>\
 <img src = "./docs/Layer_linestyle_allplan.png" width = 450/>
 
