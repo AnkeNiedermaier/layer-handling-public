@@ -66,4 +66,10 @@ can be used as a dynamic specification for the "byLayer" **formating** and is al
 
 
 ## Workflow
-If the PythonPart
+The PythonPart is executed directly in ALLPLAN from the **Library palette**. In general, all PythonParts can be stated either with a **double-click** on the entry or per **Drag and Drop**. This shows the corresponding Properties palette and executes the skript.\
+Similar to the possible functionality the palette contains two parts:
+- to export a Layer file to Excel
+- to create a Layer file from Excel
+
+The **Search...** button is used to select the required file from which the data should be read or to which the data should be written. If a new Layer file is generated, it is also possible to create a **new file**. Both workflows can be executed separatelly and independend.\
+If a new created Layer file should be read automatically in ALLPLAN, it must have the name **layerdef.dat** and depending on the ressource settings stored directly in the corresponding subfolder Std or Prj. Alternatively, it is also possible to read the file via the **layer dialog** and the tab **Layer Structures**.
