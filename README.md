@@ -71,5 +71,13 @@ Similar to the possible functionality the palette contains two parts:
 - to export a Layer file to Excel
 - to create a Layer file from Excel
 
-The **Search...** button is used to select the required file from which the data should be read or to which the data should be written. If a new Layer file is generated, it is also possible to create a **new file**. Both workflows can be executed separatelly and independend.\
+The **Search...** button is used to select the required file from which the data should be read or to which the data should be written. If a  Layer file is generated, it is also possible to create a **new file**. Both workflows can be executed separatelly and independend.\
 If a new created Layer file should be read automatically in ALLPLAN, it must have the name **layerdef.dat** and depending on the ressource settings stored directly in the corresponding subfolder Std or Prj. Alternatively, it is also possible to read the file via the **layer dialog** and the tab **Layer Structures**.
+
+## Video
+
+<!-- ![LayerHandling](./docs/PP_LayerHandling.mp4) -->
+
+<video width="320" height="240" controls>
+  <source src="./docs/PP_LayerHandling.mp4" type="video/mp4">
+</video>
