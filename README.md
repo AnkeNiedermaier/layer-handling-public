@@ -81,22 +81,9 @@ If a new created Layer file should be read automatically in ALLPLAN, it must hav
 (https://raw.githubusercontent.com/AnkeNiedermaier/layer-handling-public/main/docs/PP_LayerHandling.mp4) -->
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Embed</title>
-</head>
-<body>
-  <a href="#" onclick="playVideo(event)">
-    <img src="https://raw.githubusercontent.com/AnkeNiedermaier/layer-handling-public/main/docs/LayerHanling_video.png" alt="Click to playon playVideo(event) {
-      event.preventDefault();
-      window.open("https://raw.githubusercontent.com/AnkeNiedermaier/layer-handling-public/main/docs/PP_LayerHandling.mp4", "_blank", "width=800,height=450");
-    }
-  </script>
-</body>
-</html>
+<a href="https://raw.githubusercontent.com/AnkeNiedermaier/layer-handling-public/main/docs/PP_LayerHandling.mp4" target="_blank">
+  <img src="https://raw.githubusercontent.com/AnkeNiedermaier/layer-handling-public/main/docs/LayerHanling_video.png" alt="Click to play video" width="600" height="300">
+</a>
 
 
 
